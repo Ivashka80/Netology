@@ -14,8 +14,4 @@ Cоздаем группу - `sudo groupadd student1`
 
 ![Снимок02](https://user-images.githubusercontent.com/121082757/208647881-bce44244-ef74-440c-9ff0-5df0cebe8e60.JPG)
 
-Для пользователя student2 делаем то же самое.
-
-![Снимок03](https://user-images.githubusercontent.com/121082757/208648229-978ea002-909a-4c85-bd0d-f03aa9cdec9f.JPG)
-
 
