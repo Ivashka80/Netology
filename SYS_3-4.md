@@ -19,5 +19,4 @@ Bash_2_1.sh
 for (i=3; i<100; i+=3); do
 echo i3
 done
-https://github.com/Ivashka80/Netology/blob/8bc97c54c2a5b0fa540fc505cf26d673d0640b4c/SYS_3-4.md#L21
-(/workspaces/Netology/Bash_2_1.sh)
+
