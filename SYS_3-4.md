@@ -14,4 +14,10 @@ Cоздаем группу - `sudo groupadd student1`
 
 ![Снимок02](https://user-images.githubusercontent.com/121082757/208647881-bce44244-ef74-440c-9ff0-5df0cebe8e60.JPG)
 
-
+Bash_2_1.sh
+#!/bin/bash
+for (i=3; i<100; i+=3); do
+echo i3
+done
+https://github.com/Ivashka80/Netology/blob/8bc97c54c2a5b0fa540fc505cf26d673d0640b4c/SYS_3-4.md#L21
+(/workspaces/Netology/Bash_2_1.sh)
