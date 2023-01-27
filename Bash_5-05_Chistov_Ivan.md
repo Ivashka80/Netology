@@ -45,9 +45,13 @@ done
 
 Вариант 1
 <details>
- У меня выводит при отладке такую ошибку:
-![Screen Shot 2023-01-27 at 13 20 31](https://user-images.githubusercontent.com/121082757/215063286-8a4280ac-dda9-47f9-98db-2ba63c07c1c1.png)
+ У меня выводит при отладке такую ошибку:    
 
+
+![003](https://user-images.githubusercontent.com/121082757/215127478-d5477320-0f67-4215-be87-52860936b132.JPG)
+
+
+	
 Скрипт
 	
 ```bash
@@ -102,7 +106,7 @@ HOST="{$4}"
 
 trap 'echo "Ping exit (Ctrl-C)"; exit 1' 2
 
-[[ "$PREFIX" = "NOT_SET" ]] && { echo "\$PREFIX must be passed as first positional argument"; exit>
+[[ "$PREFIX" = "NOT_SET" ]] && { echo "\$PREFIX must be passed as first positional argument"; exit 1; }
 
 if [[ -z "$INTERFACE" ]]; then
     echo "\$INTERFACE must be passed as second positional argument"
