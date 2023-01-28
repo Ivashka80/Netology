@@ -101,8 +101,8 @@ if [[ -z "$HOST" ]]; then
 !/bin/bash
 PREFIX="${1:-NOT_SET}"
 INTERFACE="$2"
-SUBNET="{$3}"
-HOST="{$4}"
+SUBNET="$3"
+HOST="$4"
 
 trap 'echo "Ping exit (Ctrl-C)"; exit 1' 2
 
