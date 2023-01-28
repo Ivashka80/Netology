@@ -39,100 +39,72 @@ done
 
 ### Ответ
 
-К сожалению, я не смог выполнить данное задание. Как я понимаю, надо ввести агрументы для ```SUBNET``` и ```HOST```. Но как заставить их работать, я не могу сообразить.
+У меня получилось так, что SUBNET и HOST надо задавать после ввода PREFIX и INTERFACE. 
 
-Прошу изучить мои два варианта скрипта.
-
-Вариант 1
-<details>
- У меня выводит при отладке такую ошибку:    
-
-
-![003](https://user-images.githubusercontent.com/121082757/215127478-d5477320-0f67-4215-be87-52860936b132.JPG)
-
-
-	
 Скрипт
-	
+<details>
+
 ```bash
 #!/bin/bash
-PREFIX="${1:-NOT_SET}"
-INTERFACE="$2"
-SUBNET="$3"
-HOST="$4"
+
+PREFIX=$1
+INTERFACE=$2
+SUBNET=$3
+HOST=$4
+
+username=`id -nu`
+if [ "$username" != "root" ]
+then
+        echo "Must be root to run \"`basename $0`\"."
+        exit 1
+fi
 
 trap 'echo "Ping exit (Ctrl-C)"; exit 1' 2
 
 [[ "$PREFIX" = "NOT_SET" ]] && { echo "\$PREFIX must be passed as first positional argument"; exit 1; }
+
 if [[ -z "$INTERFACE" ]]; then
     echo "\$INTERFACE must be passed as second positional argument"
     exit 1
 fi
 
 if [[ -z "$SUBNET" ]]; then
-   for SUBNET in {1..255}
-   do
-                echo "[*] IP : ${PREFIX}.${SUBNET}.${HOST}"
-                arping -c 3 -i "$INTERFACE" "${PREFIX}.${SUBNET}.${HOST}" 2> /dev/null
-   done
-   if
-
-if [[ -z "$HOST" ]]; then
-   for HOST in {1..255}
-   do
-                echo "[*] IP : ${PREFIX}.${SUBNET}.${HOST}"
-                arping -c 3 -i "$INTERFACE" "${PREFIX}.${SUBNET}.${HOST}" 2> /dev/null
-   done
-   if
-
-```
-</details>
-
-
-Вариант 2   
-<details>
-
-Ошибка    
-![image](https://user-images.githubusercontent.com/121082757/215121576-8b187eef-065f-475e-8de6-af26dfd29848.png)    
-
-Скрипт
-	
-```bash
-!/bin/bash
-PREFIX="${1:-NOT_SET}"
-INTERFACE="$2"
-SUBNET="$3"
-HOST="$4"
-
-trap 'echo "Ping exit (Ctrl-C)"; exit 1' 2
-
-[[ "$PREFIX" = "NOT_SET" ]] && { echo "\$PREFIX must be passed as first positional argument"; exit 1; }
-
-if [[ -z "$INTERFACE" ]]; then
-    echo "\$INTERFACE must be passed as second positional argument"
-    exit 1
+    SUBNET=`seq 0 255`
 fi
 
-        if [[ -n "$SUBNET" ]]; then
-        sSUBNET="$SUBNET" ||  sSUBNET=`seq 0 255`
-        fi
+if [[ -z "$HOST" ]]; then
+   HOST=`seq 0 255`
+fi
 
-        if [[ -n "$HOST" ]]; then
-        sHOST="$HOST" ||  sHOST=`seq 0 255`
-        fi
-
-        for SUBNET in {$sSUBNET}
+for SUBNET in $SUBNET
+do
+        for HOST in $HOST
         do
-                for HOST in {$sHOST}
-                do
-                echo "[*] IP : ${PREFIX}.${SUBNET}.${HOST}"
-                arping -c 3 -i "$INTERFACE" "${PREFIX}.${SUBNET}.${HOST}" 2> /dev/null
+                echo "[*] IP : $PREFIX.$SUBNET.$HOST"
+                arping -c 2 -i $INTERFACE $PREFIX.$SUBNET.$HOST 2> /dev/null
         done
 done
+
 ```
 </details>
 
+Скрипт запускается от пользователя root. В противном случае будет сообщение об ошибке.    
 
+![001](https://user-images.githubusercontent.com/121082757/215254173-9431b9dd-743f-4f7a-ad0b-942e6314830d.JPG)
 
+Запуск скрипта выполняется с обязательным указанием PREFIX и INTERFASE. Если не указать, будет выдано соответствующее сообщение, например "PREFIX must be passed as first positional argument".  
 
+- Запуск скрипта только с PREFIX и INTERFACE.
+<details>
+![002](https://user-images.githubusercontent.com/121082757/215254340-df4c2981-a787-433e-8342-cd4b4bdcbec8.JPG)
+</details>
 
+- Запуск скрипта с добавлением SUBNET
+</details>
+![003](https://user-images.githubusercontent.com/121082757/215254384-4c2ab002-6080-4abd-94e1-b91120364e04.JPG)
+<details>
+
+- Запуск скрипта с добавление HOST. В этом случае сканируется только указанный IP-адрес.
+</details>
+![004](https://user-images.githubusercontent.com/121082757/215254428-d5eb8349-9677-4dae-9ee3-2968e2576025.JPG)
+<details>
