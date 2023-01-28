@@ -96,15 +96,21 @@ done
 
 - Запуск скрипта только с PREFIX и INTERFACE.
 <details>
-![002](https://user-images.githubusercontent.com/121082757/215254340-df4c2981-a787-433e-8342-cd4b4bdcbec8.JPG)
+
+![image](https://user-images.githubusercontent.com/121082757/215254502-72f5321e-341f-424e-9de9-7448c5d38163.png)
+	
 </details>
 
 - Запуск скрипта с добавлением SUBNET
-</details>
-![003](https://user-images.githubusercontent.com/121082757/215254384-4c2ab002-6080-4abd-94e1-b91120364e04.JPG)
 <details>
 
-- Запуск скрипта с добавление HOST. В этом случае сканируется только указанный IP-адрес.
+![image](https://user-images.githubusercontent.com/121082757/215254534-95fbfee7-38cf-4578-b276-46fc46ba8a1a.png)
+
 </details>
-![004](https://user-images.githubusercontent.com/121082757/215254428-d5eb8349-9677-4dae-9ee3-2968e2576025.JPG)
+
+- Запуск скрипта с добавление HOST. В этом случае сканируется только указанный IP-адрес.
 <details>
+
+![004](https://user-images.githubusercontent.com/121082757/215254428-d5eb8349-9677-4dae-9ee3-2968e2576025.JPG)
+
+</details>
