@@ -61,7 +61,7 @@ fi
 
 trap 'echo "Ping exit (Ctrl-C)"; exit 1' 2
 
-[[ "$PREFIX" = "NOT_SET" ]] && { echo "\$PREFIX must be passed as first positional argument"; exit 1; }
+[[ -z "$PREFIX" ]] && { echo "\$PREFIX must be passed as first positional argument"; exit 1; }
 
 if [[ -z "$INTERFACE" ]]; then
     echo "\$INTERFACE must be passed as second positional argument"
