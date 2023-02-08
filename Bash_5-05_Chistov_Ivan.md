@@ -39,7 +39,6 @@ done
 
 ### Ответ
 
-У меня получилось так, что SUBNET и HOST надо задавать после ввода PREFIX и INTERFACE. 
 
 Скрипт
 <details>
@@ -47,8 +46,8 @@ done
 ```bash
 #!/bin/bash
 
-PREFIX=$1
-INTERFACE=$2
+INTERFACE=$1
+PREFIX=$2
 SUBNET=$3
 HOST=$4
 
@@ -61,12 +60,11 @@ fi
 
 trap 'echo "Ping exit (Ctrl-C)"; exit 1' 2
 
-[[ -z "$PREFIX" ]] && { echo "\$PREFIX must be passed as first positional argument"; exit 1; }
-
 if [[ -z "$INTERFACE" ]]; then
-    echo "\$INTERFACE must be passed as second positional argument"
-    exit 1
+    echo "\$INTERFACE must be passed as first positional argument"
 fi
+
+[[ -z "$PREFIX" ]] && { echo "\$PREFIX must be passed as second positional argument"; exit 1; }
 
 if [[ -z "$SUBNET" ]]; then
     SUBNET=`seq 0 255`
@@ -81,7 +79,7 @@ do
         for HOST in $HOST
         do
                 echo "[*] IP : $PREFIX.$SUBNET.$HOST"
-                arping -c 2 -i $INTERFACE $PREFIX.$SUBNET.$HOST 2> /dev/null
+                arping -c 1 -i $INTERFACE $PREFIX.$SUBNET.$HOST 2> /dev/null
         done
 done
 
@@ -92,25 +90,27 @@ done
 
 ![001](https://user-images.githubusercontent.com/121082757/215254173-9431b9dd-743f-4f7a-ad0b-942e6314830d.JPG)
 
-Запуск скрипта выполняется с обязательным указанием PREFIX и INTERFASE. Если не указать, будет выдано соответствующее сообщение, например "PREFIX must be passed as first positional argument".  
+Запуск скрипта выполняется с обязательным указанием сначала INTERFAS, затем EPREFIX. Если не указать, будет выдано соответствующее сообщение:
 
-- Запуск скрипта только с PREFIX и INTERFACE.
+![image](https://user-images.githubusercontent.com/121082757/217589861-f6eed979-dc0d-49c3-ab4d-6bc7d7e2a1cd.png)
+
+- Запуск скрипта только с INTERFACE и PREFIX.
 <details>
 
-![image](https://user-images.githubusercontent.com/121082757/215254502-72f5321e-341f-424e-9de9-7448c5d38163.png)
+![image](https://user-images.githubusercontent.com/121082757/217590356-4938d755-f991-4ced-875b-b755b09c2b74.png)
 	
 </details>
 
 - Запуск скрипта с добавлением SUBNET
 <details>
 
-![image](https://user-images.githubusercontent.com/121082757/215254534-95fbfee7-38cf-4578-b276-46fc46ba8a1a.png)
+![image](https://user-images.githubusercontent.com/121082757/217590519-42dcce40-9326-4410-ae08-030b2c50aa64.png)
 
 </details>
 
 - Запуск скрипта с добавление HOST. В этом случае сканируется только указанный IP-адрес.
 <details>
 
-![004](https://user-images.githubusercontent.com/121082757/215254428-d5eb8349-9677-4dae-9ee3-2968e2576025.JPG)
+![image](https://user-images.githubusercontent.com/121082757/217590642-ad309a27-4c4c-40d0-888a-6673ec95d652.png)
 
 </details>
