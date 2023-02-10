@@ -128,9 +128,9 @@ if [[ -z "$SUBNET" ]]; then
     echo "SUBNET должно быть число от 0 до 255 или знак вопроса (?)"
     exit 1
 elif [[ "$SUBNET" == "?" ]]; then
-    sSUBNET=$(seq 1 255)
+    sSUBNET=$(seq 0 255)
 #elif [[ ! $SUBNET =~ ^(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1}) ]]; then - неудачный вариант с регуляркой
-elif (( SUBNET > 0 && SUBNET < 256 )); then
+elif (( SUBNET >= 0 && SUBNET < 256 )); then
     sSUBNET=$SUBNET
 else
     echo "SUBNET должно быть число от 0 до 255 или знак вопроса (?)"
@@ -141,9 +141,9 @@ fi
 if [[ -z "$HOST"  ]]; then
     echo "HOST должно быть число от 0 до 255 или знак вопроса (?)"
 elif [[ "$HOST" == "?" ]]; then
-    sHOST=$(seq 1 255)
+    sHOST=$(seq 0 255)
 #elif [[ ! $HOST =~ ^(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1}) ]]; then - неудачный вариант с регуляркой
-elif (( HOST > 0 && HOST < 256 )); then
+elif (( HOST >= 0 && HOST < 256 )); then
     sHOST=$HOST
 else
     echo "HOST должно быть число от 0 до 255 или знак вопроса (?)"
