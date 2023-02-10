@@ -14,27 +14,23 @@ fi
 
 trap 'echo "Ping exit (Ctrl-C)"; exit 1' 2
 
-reg_PREFIX='^(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.)(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})'
-reg_SUBNET='^(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1})'
-reg_HOST='^(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1})'
-
-if [[ -z $INTERFACE ]]; then
+if [[ -z "$INTERFACE" ]]; then
    echo "\$INTERFACE должен быть указан первым аргументом"
 fi
 
-if [[ -z $PREFIX ]]; then
+if [[ -z "$PREFIX" ]]; then
    echo "\$PREFIX должен быть указан вторым аргументом в виде числе через точку (например, 100.100)";  exit 2
-elif [[ $PREFIX =~ $reg_PREFIX ]]; then
+elif [[ ! "$PREFIX" =~ ^(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2}) ]]; then
     echo "\$PREFIX должен быть указан аргументом в виде числе через точку (например, 100.100)"; exit 2
 fi
 
-if [[ $SUBNET =~ $reg_SUBNET ]]; then
+if [[ ! $SUBNET =~ ^(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1}) ]]; then
         echo "\$SUBNET должен быть числом от 0 до 255"; exit 2
 elif [[ -z $SUBNET ]]; then
       SUBNET=`seq 0 255`
 fi
 
-if [[ $HOST =~ $reg_HOST ]]; then
+if [[ ! $HOST =~ ^(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1}) ]]; then
         echo "\$HOST должен быть числом от 0 до 255"; exit 2
 elif [[ -z $HOST ]]; then
       HOST=`seq 0 255`
