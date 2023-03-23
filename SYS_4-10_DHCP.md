@@ -88,21 +88,35 @@
 
 `authoritative;`
 
-Ниже надо задать уже параметры сети (маршрут, адреса, маску и т.п.).
+Ниже надо задать уже параметры сети (маршрут, адреса, маску и т.п.). Например, наша сеть - `172.20.0.0/24`
 
-`subnet 172.20.0.0 netmask 255.255.255.0 {`
+     subnet 172.20.0.0 netmask 255.255.255.0 {
 
      option routers 172.2.0.1;
 
       option subnet-mask 255.255.255.0;
 
-      option domain-search ""mydomian.ru";
+      option domain-search "mydomian.ru";
 
       option domain-name-servers server.mydomian.ru;
 
       range 172.20.0.5 172.20.0.50;
+     }
 
-`}`
+Здесь было указано следующее:
+
+`routers` — IP-адрес маршрутизатора по умолчанию
+
+`subnet-mask` — маска подсети
+
+`domain-search` — имя домена
+
+`domain-name-servers` — имена DNS-серверов
+
+`range` — диапазон IP-адресов, выделяемый клиентам (можно указывать несколько диапазонов, но обязательно указать хотя бы один)
+
+
+
 
 ---
 
