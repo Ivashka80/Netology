@@ -78,28 +78,19 @@
 
 В начале этого файла идут глобальные параметры - это имя домена `domain-name`, имена DNS-серверов `domain-name-servers`, время аренды по умолчанию в секундах `default-lease-time` (если клиент не запросил его сам), максимальное время аренды в секундах `max-lease-time` и параметр `authoritative`, означающий «авторитетность» сервера в сегменте сети. Данный параметр нужен на тот случай, если клиент запросит неправильный IP-адрес — в этом случае сервер ответит ему отказом и предложит получить новый адрес.
 
-`option domain-name "mydomian.ru";`
-
-`option domain-name-servers server.mydomian.ru;`
-
-`default-lease-time 7200;`
-
-`max-lease-time 7200;`
-
-`authoritative;`
+     option domain-name "mydomian.ru";
+     option domain-name-servers server.mydomian.ru;
+     default-lease-time 7200;
+     max-lease-time 7200;
+     authoritative;
 
 Ниже надо задать уже параметры сети (маршрут, адреса, маску и т.п.). Например, наша сеть - `172.20.0.0/24`
 
      subnet 172.20.0.0 netmask 255.255.255.0 {
-
      option routers 172.2.0.1;
-
       option subnet-mask 255.255.255.0;
-
       option domain-search "mydomian.ru";
-
       option domain-name-servers server.mydomian.ru;
-
       range 172.20.0.5 172.20.0.50;
      }
 
