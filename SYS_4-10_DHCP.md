@@ -117,8 +117,7 @@
 
 Проверяем статус DHCP - `systemctl status isc-dhcp-server.service`
 
-![image](https://user-images.githubusercontent.com/121082757/227152555-aceb8347-c705-43c2-b603-dbb7a1226e05.png)
-
+![image](https://user-images.githubusercontent.com/121082757/227454064-370722e2-43bb-4f08-be1c-ba1f47b5b92d.png)
 
 
 ---
