@@ -72,6 +72,54 @@ http {
 
 *Пришлите скриншот работающей страницы https://localhost.*
 
+### Ответ.
+
+После установки nginx генерируем сертификат
+
+<details>
+    
+![Снимок01](https://user-images.githubusercontent.com/121082757/228816529-2de2a1be-9105-44ef-ba92-6392b3c47520.PNG)
+ 
+</details>
+
+В файле `/etc/nginx/nginx.conf` меняем пользователя, от имени которого будет запускаться nginx.
+
+<details>
+    
+![Снимок02](https://user-images.githubusercontent.com/121082757/228817037-490ef57d-06b8-42bf-9d41-b3c4b56a53fd.PNG)
+ 
+</details>
+
+Также в файле `/etc/nginx/nginx.conf` находится ссылка на директорию, в которой хранятся файлы сайтов. Можно создать свой, но я решил отредактировать `/etc/nginx/sites-enabled/default`
+
+<details>
+    
+    ![Снимок03](https://user-images.githubusercontent.com/121082757/228817386-bcc645f0-bfa7-48b7-afd2-e474cc274944.PNG)
+
+</details>
+
+Создан файл `/var/www/public/index.html`
+
+<details>
+    
+![Снимок04](https://user-images.githubusercontent.com/121082757/228817667-73f3df44-1a9d-4af6-95eb-5d0c43da52a2.PNG)
+
+</details>
+
+После внесения изменений в файл конфигурации надо перезапустить nginx - `systemctl restart nginx.service`.
+
+Запускаем бразер и в адресную строку вбиваем `https://localhost`. Появится сообщение, что к сертификату нет доверия. Можно его просмотреть. После принятия в бразуере появляется сообщение из ранее созданного файла `/var/www/public/index.html`.
+
+<details>
+    
+![Снимок05](https://user-images.githubusercontent.com/121082757/228818474-46a6998b-e561-4903-a9b2-3c4c5ade2df9.PNG)
+    
+![Снимок06](https://user-images.githubusercontent.com/121082757/228818509-0b7c82f9-8d6e-4d83-ad7b-f122baabb5db.PNG)
+    
+![Снимок07](https://user-images.githubusercontent.com/121082757/228818560-ac9c7916-7a3c-4fa8-a53f-d25e6e29c63d.PNG)
+
+</details>
+
 ------
 
 ### Задание 3.
@@ -84,6 +132,16 @@ location / {
 ```
 
 *Используя curl сделайте запрос к своему серверу и в качестве ответа пришлите скриншот с 301 ответом.*
+
+### Ответ.
+
+Запрос к серверу после внесения изменений.
+
+<details>
+    
+![Снимок08](https://user-images.githubusercontent.com/121082757/228818765-78a81a1a-7aa7-4cbf-b965-de36bf827646.PNG)
+
+</details>
 
 ---
 
