@@ -81,6 +81,10 @@
 
 ![Снимок05](https://user-images.githubusercontent.com/121082757/232006730-89762231-69d1-4312-97f5-19abb8afdf3e.PNG)
 
+ ***Данное задание доделывал на другой машине, потому скриншот отличается.
+ 
+ ![Снимок экрана от 2023-04-14 14-51-05](https://user-images.githubusercontent.com/121082757/232037175-6e98c0aa-f0a9-4eaf-8596-ec6a882c9faa.png)
+
 </details>
  
  ---
