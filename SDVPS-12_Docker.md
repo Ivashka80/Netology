@@ -107,6 +107,19 @@
  * скриншоты работающих контейнеров;
  * скриншот браузера, где вы открыли дефолтную страницу вашего apache внутри контейнера.
 
+### Ответ
+
+<details>
+
+ ![image](https://user-images.githubusercontent.com/121082757/233018480-1bc01a7d-e3a3-401a-b336-3466500907fd.png)
+
+ ![image](https://user-images.githubusercontent.com/121082757/233020316-699e3825-f1e8-466d-8fdb-25bf68f6fb4b.png)
+
+![image](https://user-images.githubusercontent.com/121082757/233041960-a2366fe8-db9c-47b8-ac70-f2971c353432.png)
+ 
+  
+</details>
+
 ---
 
 ### Задание 6*
