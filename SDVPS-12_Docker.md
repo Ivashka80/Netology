@@ -44,12 +44,16 @@
 
 ### Ответ
 
+<details>
+
 Для Docker использована ОС LinuxMint.
 Я выбрал способ установки через скрипт с сайта https://docs.docker.com/engine/install/ubuntu/
 
 ![Снимок04](https://user-images.githubusercontent.com/121082757/233011082-3813a193-e681-4231-b834-b84c6aa9ad70.PNG)
 
 ![Снимок05](https://user-images.githubusercontent.com/121082757/233012776-9d0ddf43-6248-4b7f-81f8-95ec7b5d03e1.PNG)
+
+</details>
 
 ---
 
@@ -60,6 +64,16 @@
 1. Запустите образ hello-world.
 1. Приложите скриншот.
 
+### Ответ
+
+<details>
+
+![Снимок06](https://user-images.githubusercontent.com/121082757/233013521-1fd7737a-9d68-4602-8d0a-e991c2aeea05.PNG)
+
+![image](https://user-images.githubusercontent.com/121082757/233015398-353b8ca8-7508-42a4-a489-ebd7a8e4acc9.png)
+ 
+</details>
+
 ---
 
 ### Задание 4 
@@ -68,6 +82,14 @@
 
 1. Удалите образ hello-world.
 1. Приложите скриншот.
+
+### Ответ
+
+<details>
+
+![image](https://user-images.githubusercontent.com/121082757/233017997-910a11a1-6027-4b3a-8dcc-f691120625c7.png)
+
+</details>
 
 ---
 
