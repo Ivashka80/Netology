@@ -115,7 +115,7 @@
 
  ![image](https://user-images.githubusercontent.com/121082757/233020316-699e3825-f1e8-466d-8fdb-25bf68f6fb4b.png)
 
-![image](https://user-images.githubusercontent.com/121082757/233041960-a2366fe8-db9c-47b8-ac70-f2971c353432.png)
+![image](https://user-images.githubusercontent.com/121082757/233068905-a54561f5-a306-49c3-a5ca-4bee3b01b61f.png)
  
  ![image](https://user-images.githubusercontent.com/121082757/233068254-d01d65f6-73c2-48ff-8a45-81c0fc5e2e21.png)
   
@@ -129,3 +129,14 @@
 1. Приложите:
  * скриншот содержимого Dockerfile;
  * скриншот браузера, где apache2 из вашего контейнера выводит ваши ФИО.
+
+### Ответ
+
+<details>
+
+![image](https://user-images.githubusercontent.com/121082757/233076609-93f875f1-5d2f-4ee1-9ad1-e5a06da21871.png)
+ 
+![image](https://user-images.githubusercontent.com/121082757/233076470-dbe2f492-4af8-4eb5-8e87-5ebe8c525074.png)
+ 
+</details>
+
