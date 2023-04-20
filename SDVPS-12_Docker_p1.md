@@ -47,7 +47,7 @@
 <details>
 
 Для Docker использована ОС LinuxMint.
-Я выбрал способ установки через скрипт с сайта https://docs.docker.com/engine/install/ubuntu/
+Я выбрал способ установки через скрипт с сайта https://docs.docker.com/engine/install/ubuntu/. Данный скрипт упрощает установку тем, что при запуске его делается весь процесесс установки: добавление репозитория, установка GPG-ключа, скачивание файла Docker и др.
 
 ![Снимок04](https://user-images.githubusercontent.com/121082757/233011082-3813a193-e681-4231-b834-b84c6aa9ad70.PNG)
 
