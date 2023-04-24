@@ -41,7 +41,7 @@
 
 Docker Compose — входит в состав Docker. С помощью Docker Compose можно создать один YAML-файл для определения служб и с помощью одной команды запустить или остановить все, что нужно при развертывании многоконтейнерных приложений.
 
-![image](https://user-images.githubusercontent.com/121082757/233973292-548a7a91-f5f2-4439-b44a-d58e8dbea3c4.png)
+![image](https://user-images.githubusercontent.com/121082757/233980664-ec2b1d0d-e8bb-498d-a840-2d86c2475d58.png)
 
 ---
 
