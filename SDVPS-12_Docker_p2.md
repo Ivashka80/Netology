@@ -60,6 +60,13 @@ Docker Compose — входит в состав Docker. С помощью Docker
 
 ### Ответ
 
+Для начала была создана подсеть 172.22.0.0 - `sudo docker network create -d bridge --subnet 172.22.0.0/24 --gateway 172.22.0.1 chistov-my-netology-hw`.
+
+![image](https://user-images.githubusercontent.com/121082757/234179620-56eca7b9-79bc-4112-9ee5-b0f149701fab.png)
+
+Создание файла `docker-compose.yml`.
+
+![image](https://user-images.githubusercontent.com/121082757/234181660-4ef678da-6709-4fa9-84df-32fb8d759e82.png)
 
 ---
 
@@ -74,7 +81,6 @@ Docker Compose — входит в состав Docker. С помощью Docker
 5. Назначьте для данного контейнера статический IP из подсети 172.22.0.0/24.
 
 ### Ответ
-
 
 ---
 
