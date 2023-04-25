@@ -60,11 +60,8 @@ Docker Compose — входит в состав Docker. С помощью Docker
 
 ### Ответ
 
-Для начала была создана подсеть 172.22.0.0 - `sudo docker network create -d bridge --subnet 172.22.0.0/24 --gateway 172.22.0.1 chistov-my-netology-hw`.
 
-![image](https://user-images.githubusercontent.com/121082757/234179620-56eca7b9-79bc-4112-9ee5-b0f149701fab.png)
-
-Создание файла `docker-compose.yml`.
+Создание файла `docker-compose.yml`. В данном файле указано, что при запуске создатся подсеть 172.22.0.0/24.
 
 ![image](https://user-images.githubusercontent.com/121082757/234181660-4ef678da-6709-4fa9-84df-32fb8d759e82.png)
 
@@ -81,6 +78,12 @@ Docker Compose — входит в состав Docker. С помощью Docker
 5. Назначьте для данного контейнера статический IP из подсети 172.22.0.0/24.
 
 ### Ответ
+
+![image](https://user-images.githubusercontent.com/121082757/234264347-4eb9785d-de50-434a-89cd-138ad43b8740.png)
+
+Запуск.
+
+![image](https://user-images.githubusercontent.com/121082757/234264576-681a531a-c2a6-4e9f-b50d-8c833860e264.png)
 
 ---
 
@@ -99,6 +102,12 @@ Docker Compose — входит в состав Docker. С помощью Docker
 * скриншот админки pgAdmin.
 
 ### Ответ
+
+![image](https://user-images.githubusercontent.com/121082757/234288652-e09344b4-2dff-4eb0-a3cf-6490260f5cd2.png)
+
+![image](https://user-images.githubusercontent.com/121082757/234288768-7c673d34-08e9-4691-9fd3-34a5a1697396.png)
+
+
 
 ---
 
