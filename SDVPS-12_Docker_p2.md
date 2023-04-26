@@ -121,6 +121,8 @@ Docker Compose — входит в состав Docker. С помощью Docker
 
 ### Ответ
 
+![image](https://user-images.githubusercontent.com/121082757/234497334-5b91ae0b-cd63-431c-b01b-f50976c60794.png)
+
 ---
 
 ### Задание 6
@@ -133,6 +135,7 @@ Docker Compose — входит в состав Docker. С помощью Docker
 
 ### Ответ
 
+![image](https://user-images.githubusercontent.com/121082757/234500049-b67fb48b-9c1b-4de7-ad10-0ec7c0ab4b2b.png)
 
 ---
 
@@ -160,6 +163,89 @@ Docker Compose — входит в состав Docker. С помощью Docker
 2. Приложите скриншот консоли с проделанными действиями.
 
 ### Ответ
+
+<details>
+
+  version: '3.9'
+
+  services:
+    chistov-netology-db:  #назвазние сервиса
+      image: postgres:latest #используемый образ
+      container_name: chistov-netology-db #назвазние контейнера
+      volumes:
+        - ./pg_data:/var/lib/postgresql/data/pgdata #указываем папку, которая будет проброшена с хост>
+      environment:
+        POSTGRES_DB: chistov-db #название создаваемой базы
+        POSTGRES_PASSWORD: chistov12!3!! #пароль для входа
+        PGDATA: /var/lib/postgresql/data/pgdata #путь в котнейнере, куда будут сохранятся данные
+      ports:
+        - 5432:5432 #порты для проброса с хоста в контейнер
+      networks:
+        chistov-my-netology-hw:
+         ipv4_address: 172.22.0.5 #задаем статичнй ip-адрес
+      restart: always #в случае перезапуска машины контейнер снова запустится
+  
+    pgAdmin:
+      image: dpage/pgadmin4
+      links:
+        - chistov-netology-db
+      container_name: chistov-pgadmin
+      environment:
+        PGADMIN_DEFAULT_EMAIL: chistov@ilove-netology.com
+        PGADMIN_DEFAULT_PASSWORD: chistov12!3!!
+      ports:
+        - 61231:80
+      networks:
+        chistov-my-netology-hw:
+          ipv4_address: 172.22.0.6
+      restart: always
+  
+    zabbix-server-pgsql:
+      image: zabbix/zabbix-server-pgsql
+      links:
+        - chistov-netology-db
+        - pgAdmin
+      container_name: chistov-zabbix-netology
+      environment:
+        DB_SERVER_HOST: 172.22.0.5
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: chistov12!3!!
+      ports:
+        - 10051:10051
+      networks:
+        chistov-my-netology-hw:
+          ipv4_address: 172.22.0.7
+      restart: always
+  
+    zabbix_frontend:
+      image: zabbix/zabbix-web-apache-pgsql
+      links:
+        - chistov-netology-db
+        - chistov-pgadmin
+        - zabbix-server-pgsql
+      container_name: chistov-netology-zabbix-frontend
+      environment:
+        DB_SERVER_HOST: 172.22.0.5
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: chistov12!3!!
+        ZBX_SERVER_HOST: zabbix_frontend
+        PHP_TZ: Europe/Moscow
+      ports:
+        - 80:8080
+        - 443:8443
+      networks:
+        chistov-my-netology-hw:
+          ipv4_address: 172.22.0.8
+      restart: always
+  
+  networks:
+    chistov-my-netology-hw:
+      driver: bridge
+      ipam:
+        config:
+          - subnet: 172.22.0.0/24
+
+</details>
 
 ---
 
