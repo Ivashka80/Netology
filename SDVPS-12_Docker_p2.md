@@ -115,7 +115,7 @@ Docker Compose — входит в состав Docker. С помощью Docker
 
 ### Ответ
 
-![image](https://user-images.githubusercontent.com/121082757/234497334-5b91ae0b-cd63-431c-b01b-f50976c60794.png)
+![image](https://user-images.githubusercontent.com/121082757/234554393-5853f2a6-f1f5-4251-b27d-4e5743665b9e.png)
 
 ---
 
@@ -129,7 +129,7 @@ Docker Compose — входит в состав Docker. С помощью Docker
 
 ### Ответ
 
-![image](https://user-images.githubusercontent.com/121082757/234500049-b67fb48b-9c1b-4de7-ad10-0ec7c0ab4b2b.png)
+![image](https://user-images.githubusercontent.com/121082757/234556187-7bceea98-c44f-41a1-9b25-ad982e681dc4.png)
 
 ---
 
