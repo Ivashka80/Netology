@@ -41,7 +41,7 @@
 
 Docker Compose — входит в состав Docker. С помощью Docker Compose можно создать один YAML-файл для определения служб и с помощью одной команды запустить или остановить все, что нужно при развертывании многоконтейнерных приложений.
 
-![image](https://user-images.githubusercontent.com/121082757/233980664-ec2b1d0d-e8bb-498d-a840-2d86c2475d58.png)
+![image](https://user-images.githubusercontent.com/121082757/234545582-1963ea9c-7f4b-4933-8120-6c5a660ef3bf.png)
 
 ---
 
@@ -79,11 +79,7 @@ Docker Compose — входит в состав Docker. С помощью Docker
 
 ### Ответ
 
-![image](https://user-images.githubusercontent.com/121082757/234264347-4eb9785d-de50-434a-89cd-138ad43b8740.png)
-
-Запуск.
-
-![image](https://user-images.githubusercontent.com/121082757/234264576-681a531a-c2a6-4e9f-b50d-8c833860e264.png)
+![image](https://user-images.githubusercontent.com/121082757/234546022-bc34c5cf-3243-4b63-8e65-4b5229a8fe9e.png)
 
 ---
 
@@ -103,11 +99,9 @@ Docker Compose — входит в состав Docker. С помощью Docker
 
 ### Ответ
 
-![image](https://user-images.githubusercontent.com/121082757/234288652-e09344b4-2dff-4eb0-a3cf-6490260f5cd2.png)
+![image](https://user-images.githubusercontent.com/121082757/234546318-87dded81-853f-498e-8217-e7568ea6ba68.png)
 
-![image](https://user-images.githubusercontent.com/121082757/234288768-7c673d34-08e9-4691-9fd3-34a5a1697396.png)
-
-
+![image](https://user-images.githubusercontent.com/121082757/234546441-7a98d1f9-fc7c-4ef2-a0ed-231f05b8a512.png)
 
 ---
 
