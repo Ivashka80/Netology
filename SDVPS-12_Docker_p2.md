@@ -154,26 +154,26 @@ Docker Compose — входит в состав Docker. С помощью Docker
 ### Ответ
 
 <details>
-
-  version: '3.9'
-
-  services:
-    chistov-netology-db:  #назвазние сервиса
-      image: postgres:latest #используемый образ
-      container_name: chistov-netology-db #назвазние контейнера
-      volumes:
-        - ./pg_data:/var/lib/postgresql/data/pgdata #указываем папку, которая будет проброшена с хост>
-      environment:
-        POSTGRES_DB: chistov-db #название создаваемой базы
-        POSTGRES_PASSWORD: chistov12!3!! #пароль для входа
-        PGDATA: /var/lib/postgresql/data/pgdata #путь в котнейнере, куда будут сохранятся данные
-      ports:
-        - 5432:5432 #порты для проброса с хоста в контейнер
-      networks:
-        chistov-my-netology-hw:
-         ipv4_address: 172.22.0.5 #задаем статичнй ip-адрес
-      restart: always #в случае перезапуска машины контейнер снова запустится
   
+    version: '3.9'
+  
+    services:
+      chistov-netology-db:  #назвазние сервиса
+        image: postgres:latest #используемый образ
+        container_name: chistov-netology-db #назвазние контейнера
+        volumes:
+          - ./pg_data:/var/lib/postgresql/data/pgdata #указываем папку, которая будет проброшена с хост>
+        environment:
+          POSTGRES_DB: chistov-db #название создаваемой базы
+          POSTGRES_PASSWORD: chistov12!3!! #пароль для входа
+          PGDATA: /var/lib/postgresql/data/pgdata #путь в котнейнере, куда будут сохранятся данные
+        ports:
+          - 5432:5432 #порты для проброса с хоста в контейнер
+        networks:
+          chistov-my-netology-hw:
+           ipv4_address: 172.22.0.5 #задаем статичнй ip-адрес
+        restart: always #в случае перезапуска машины контейнер снова запустится
+    
     pgAdmin:
       image: dpage/pgadmin4
       links:
@@ -227,12 +227,12 @@ Docker Compose — входит в состав Docker. С помощью Docker
           ipv4_address: 172.22.0.8
       restart: always
   
-  networks:
-    chistov-my-netology-hw:
-      driver: bridge
-      ipam:
-        config:
-          - subnet: 172.22.0.0/24
+    networks:
+      chistov-my-netology-hw:
+        driver: bridge
+        ipam:
+          config:
+            - subnet: 172.22.0.0/24
 
 </details>
 
