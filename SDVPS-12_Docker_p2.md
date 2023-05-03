@@ -63,7 +63,7 @@ Docker Compose — входит в состав Docker. С помощью Docker
 
 Создание файла `docker-compose.yml`. В данном файле указано, что при запуске создатся подсеть 172.22.0.0/24.
 
-![image](https://user-images.githubusercontent.com/121082757/234181660-4ef678da-6709-4fa9-84df-32fb8d759e82.png)
+![image](https://user-images.githubusercontent.com/121082757/235850620-c88c2da1-d562-410e-9cf8-cec82cb23e4a.png)
 
 ---
 
@@ -79,7 +79,7 @@ Docker Compose — входит в состав Docker. С помощью Docker
 
 ### Ответ
 
-![image](https://user-images.githubusercontent.com/121082757/234546022-bc34c5cf-3243-4b63-8e65-4b5229a8fe9e.png)
+![image](https://user-images.githubusercontent.com/121082757/235852154-5f4404a0-9612-434f-a5fb-09f1c04378fa.png)
 
 ---
 
@@ -99,7 +99,7 @@ Docker Compose — входит в состав Docker. С помощью Docker
 
 ### Ответ
 
-![image](https://user-images.githubusercontent.com/121082757/234546318-87dded81-853f-498e-8217-e7568ea6ba68.png)
+![image](https://user-images.githubusercontent.com/121082757/235854288-b45ccc49-d3fe-484c-a3a4-c657c1dc3b36.png)
 
 ![image](https://user-images.githubusercontent.com/121082757/234546441-7a98d1f9-fc7c-4ef2-a0ed-231f05b8a512.png)
 
