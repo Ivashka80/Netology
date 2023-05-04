@@ -148,25 +148,25 @@ Docker Compose — входит в состав Docker. С помощью Docker
 ### Ответ
 
 <details>
+    
+     version: '3.8'
+     
+     services:
+       4istovia-netology-db:
+         image: postgres:latest
+         container_name: 4istovia-netology-db
+         ports:
+           - 5432:5432
+         volumes:
+           - ./pg_data:/var/lib/postgresql/data/pgdata
+         environment:
+           POSTGRES_PASSWORD: 4istovia12!3!!
+           POSTGRES_DB: 4istovia_db
+           PGDATA: /var/lib/postgresql/data/pgdata
+         networks:
+           4istovia-my-netology-hw:
+             ipv4_address: 172.22.0.2
   
-   version: '3.8'
-   
-   services:
-     4istovia-netology-db:
-       image: postgres:latest
-       container_name: 4istovia-netology-db
-       ports:
-         - 5432:5432
-       volumes:
-         - ./pg_data:/var/lib/postgresql/data/pgdata
-       environment:
-         POSTGRES_PASSWORD: 4istovia12!3!!
-         POSTGRES_DB: 4istovia_db
-         PGDATA: /var/lib/postgresql/data/pgdata
-       networks:
-         4istovia-my-netology-hw:
-           ipv4_address: 172.22.0.2
-
      pgadmin:
        image: dpage/pgadmin4
        container_name: 4istovia-pgadmin
@@ -214,12 +214,12 @@ Docker Compose — входит в состав Docker. С помощью Docker
          4istovia-my-netology-hw:
            ipv4_address: 172.22.0.5
    
-   networks:
-     4istovia-my-netology-hw:
-       driver: bridge
-       ipam:
-         config:
-         - subnet: 172.22.0.0/24
+     networks:
+       4istovia-my-netology-hw:
+         driver: bridge
+          ipam:
+           config:
+           - subnet: 172.22.0.0/24
    
 </details>
 
