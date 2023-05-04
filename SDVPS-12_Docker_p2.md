@@ -63,7 +63,7 @@ Docker Compose — входит в состав Docker. С помощью Docker
 
 Создание файла `docker-compose.yml`. В данном файле указано, что при запуске создатся подсеть 172.22.0.0/24.
 
-![image](https://user-images.githubusercontent.com/121082757/235850620-c88c2da1-d562-410e-9cf8-cec82cb23e4a.png)
+![Снимок01](https://user-images.githubusercontent.com/121082757/236119689-e42a693f-cfb8-4dfc-a9ed-3f1f5da99f67.PNG)
 
 ---
 
@@ -79,7 +79,7 @@ Docker Compose — входит в состав Docker. С помощью Docker
 
 ### Ответ
 
-![image](https://user-images.githubusercontent.com/121082757/235852154-5f4404a0-9612-434f-a5fb-09f1c04378fa.png)
+![Снимок02](https://user-images.githubusercontent.com/121082757/236119874-7805fc15-108a-43b8-88e3-1600f10616b2.PNG)
 
 ---
 
@@ -99,9 +99,9 @@ Docker Compose — входит в состав Docker. С помощью Docker
 
 ### Ответ
 
-![image](https://user-images.githubusercontent.com/121082757/235854288-b45ccc49-d3fe-484c-a3a4-c657c1dc3b36.png)
+![Снимок03](https://user-images.githubusercontent.com/121082757/236119893-b0230df0-cbf9-45aa-ad85-fe1bc5dc7565.PNG)
 
-![image](https://user-images.githubusercontent.com/121082757/234546441-7a98d1f9-fc7c-4ef2-a0ed-231f05b8a512.png)
+![Снимок05](https://user-images.githubusercontent.com/121082757/236119917-75a428cf-67ad-4b40-89d4-60c888d07f74.PNG)
 
 ---
 
