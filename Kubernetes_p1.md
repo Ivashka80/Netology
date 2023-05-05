@@ -28,6 +28,7 @@
 
 ### Ответ
 
+![image](https://user-images.githubusercontent.com/121082757/236408811-5db59ea1-e534-4532-bff0-3ddba3dcb6ac.png)
 
 ------
 ### Задание 2
@@ -74,6 +75,33 @@ spec:
 3. В качестве решения пришлите получившийся файл.
 
 ### Ответ
+
+
+```
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis
+spec:
+  selector:
+    matchLabels:
+      app: redis
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: redis
+    spec:
+      containers:
+      - name: master
+        image: bitnami/redis:6.0.13
+        env:
+         - name: ALLOW_EMPTY_PASSWORD
+           value: "yes"
+        ports:
+        - containerPort: 6379
+```
 
 ------
 ### Задание 3
