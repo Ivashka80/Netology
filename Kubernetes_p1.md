@@ -151,6 +151,37 @@ spec:
 
 ### Ответ
 
+ - выполнения команды ps aux внутри контейнера
+<details>
+
+![image](https://user-images.githubusercontent.com/121082757/236623193-f21d99bd-5540-403e-b8ae-ee32e89bd1c7.png)
+
+</details>
+
+ - просмотра логов контейнера за последние 5 минут
+<details>
+
+![image](https://user-images.githubusercontent.com/121082757/236623311-00f028b3-b10f-446a-985c-bf63dfaf8e4d.png)
+  
+</details>
+
+- проброса порта локальной машины в контейнер для отладки
+<details>
+
+![image](https://user-images.githubusercontent.com/121082757/236623588-6ee6faac-b794-4966-92c0-a3df3bc993b9.png)
+
+![image](https://user-images.githubusercontent.com/121082757/236623619-f1abc452-0f3b-480d-8130-bf33b3eafe8e.png)
+
+</details>
+
+
+ - удаления контейнера;
+<details>
+
+![image](https://user-images.githubusercontent.com/121082757/236623771-ad975ed2-9abf-467a-8559-5404bf3b5bd8.png)
+  
+</details>
+
 
 ------
 ## Дополнительные задания* (со звёздочкой)
