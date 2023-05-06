@@ -28,7 +28,7 @@
 
 ### Ответ
 
-![image](https://user-images.githubusercontent.com/121082757/236408811-5db59ea1-e534-4532-bff0-3ddba3dcb6ac.png)
+![image](https://user-images.githubusercontent.com/121082757/236619475-46b74d4b-c52d-40df-83dc-d30b2a84ddba.png)
 
 ------
 ### Задание 2
@@ -102,6 +102,38 @@ spec:
         ports:
         - containerPort: 6379
 ```
+```
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: Service
+spec:
+  selector:
+    app: redis
+  ports:
+    - protocol: TCP
+      port: 6379
+      targetPort: 6379
+
+```
+
+Вывод команды `kubectl describe po redis`
+
+<details>
+
+![image](https://user-images.githubusercontent.com/121082757/236622886-05885f68-0dcb-414c-ae0f-f434ea970877.png)
+
+</details>
+
+Запуск Redis Desktop Manager
+
+<details>
+
+![image](https://user-images.githubusercontent.com/121082757/236622928-f0d6bde0-03d7-45c3-8d70-9796102c5e96.png)
+
+</details>
+
 
 ------
 ### Задание 3
