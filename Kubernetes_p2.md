@@ -30,7 +30,7 @@
 
 ### Ответ
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/4e45acca-232d-466f-9253-f30140b97507)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/c27f4d43-2a72-4a5a-b02c-285199a32687)
 
 ---
 
