@@ -72,6 +72,17 @@ spec:
 
 В качестве ответа пришлите вывод команды `helm get manifest <имя_релиза>`.
 
+### Ответ
+
+Тут у меня возникли трудности. Я не пойму, что нужно указывать в файле values.yaml. Если оставляю по умолчанию, вывод `helm install` получается такой.
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/ff6f2067-89d7-4df0-9799-f968cd285098)
+
+Если я пытаюсь выполнить команды под строкой NOTE, то после первой же команды `export POD_NAME=$(kubectl get pods --namespace default -l "app.kubernetes.io/name=mychart1,app.kubernetes.io/instance=mychart1" -o jsonpath="{.items[0].metadata.name}")` получается так.
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/f75caf5b-447a-4824-9080-a424a66eee34)
+
+
 ---
 ## Дополнительные задания* (со звёздочкой)
 
