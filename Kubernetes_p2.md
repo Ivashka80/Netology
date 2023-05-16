@@ -74,9 +74,11 @@ spec:
 
 ### Ответ
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/f3272163-ff48-4c2d-9afa-0ac2e7d4312e)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/810c9ba0-3288-4e45-8dd4-c40142125679)
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/f1c3cd71-b644-42e8-94f7-c5fbb56da5b8)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/bbe236bc-e79d-4141-9fee-9454ffd98ea2)
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/f6ce5f99-2e57-46b1-adae-41602ec2ff19)
 
 ---
 ## Дополнительные задания* (со звёздочкой)
