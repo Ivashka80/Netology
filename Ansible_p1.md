@@ -38,6 +38,14 @@
 
 </details>
 
+На управляемых машинах содержимое файла sshd_condig
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/6d0444f1-6622-489f-9b0d-fb012fd678e2)
+
+ </details>
+
 2. Использовались три ВМ (Ubuntu, Debian и Mint). В качестве главной машины использовалась Ubuntu. Везде операции производились от пользователя root.
 
 <details>
@@ -48,7 +56,13 @@
 
 </details>
 
-  
+3 и 4.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/b7dd0a49-b209-4663-a01d-b730e4c615db)
+
+</details>
 
 ---
 
@@ -71,6 +85,9 @@
 1. Установите на управляемых хостах любой пакет, которого нет.
 2. Проверьте статус любого, присутствующего на управляемой машине, сервиса. 
 3. Создайте файл с содержимым «I like Linux» по пути /tmp/netology.txt.
+ 
+![image](https://github.com/Ivashka80/Netology/assets/121082757/70d07507-30a0-41d0-8f6a-16ecd312148a)
+
  
  ### Ответ
 
