@@ -34,34 +34,27 @@
 1. 
 <details>
   
- ![image](https://github.com/Ivashka80/Netology/assets/121082757/4f9cb8bf-997e-4432-84ce-362bb130254e)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/72f3264c-f519-4237-a82a-6de02a841254)
 
 </details>
 
-На управляемых машинах содержимое файла sshd_condig
+
+2. Использовались три ВМ (Ubuntu). В качестве главной машины использовалась Ubuntu vm1. 
 
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/6d0444f1-6622-489f-9b0d-fb012fd678e2)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/43edfadd-2ee8-41df-8375-fe617f8ba8dc)
 
- </details>
-
-2. Использовались три ВМ (Ubuntu, Debian и Mint). В качестве главной машины использовалась Ubuntu. Везде операции производились от пользователя root.
-
-<details>
-
-![image](https://github.com/Ivashka80/Netology/assets/121082757/425074e9-1f5d-4d0d-91b1-89882139886e)
-
- ![image](https://github.com/Ivashka80/Netology/assets/121082757/33b3c959-3b10-4a21-ab97-fe1f5d856e1e)
-
+![image](https://github.com/Ivashka80/Netology/assets/121082757/fb9b1f49-1316-4631-819a-8708b7b86d04)
+ 
 </details>
 
 3 и 4.
 
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/b7dd0a49-b209-4663-a01d-b730e4c615db)
-
+![image](https://github.com/Ivashka80/Netology/assets/121082757/4e447dca-68f1-4fae-92ae-b90e1c238ee3)
+ 
 </details>
 
 ---
@@ -86,8 +79,9 @@
 2. Проверьте статус любого, присутствующего на управляемой машине, сервиса. 
 3. Создайте файл с содержимым «I like Linux» по пути /tmp/netology.txt.
  
-![image](https://github.com/Ivashka80/Netology/assets/121082757/70d07507-30a0-41d0-8f6a-16ecd312148a)
 
- 
  ### Ответ
+
+1.
+![image](https://github.com/Ivashka80/Netology/assets/121082757/354c9bf3-a7f8-4822-9e3d-88bf5175b67c)
 
