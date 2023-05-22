@@ -18,6 +18,7 @@
 
 ### Ответ
 
+К плюсам я бы отнес то, что нет необходимости настраивать каждый хост отдельно. Всё можно сделать один раз. Отсюда идет следующий плюс - скорость. Команда нужной настройки пойдет сразу по всем указанным адресам. А это уже слеующий плюс - масштабируемость. Можно задать команду выполнения как 10 хостам, так и 100. Ограничение здесть будет только зависит от качества связи.
 
 ---
 
@@ -34,18 +35,18 @@
 1. 
 <details>
   
-![image](https://github.com/Ivashka80/Netology/assets/121082757/72f3264c-f519-4237-a82a-6de02a841254)
-
+![image](https://github.com/Ivashka80/Netology/assets/121082757/c5086bc4-324c-4896-ac24-bf19ba4035e7)
+ 
 </details>
 
 
-2. Использовались три ВМ (Ubuntu). В качестве главной машины использовалась Ubuntu vm1. 
+2. Использовались три ВМ (Ubuntu). В качестве главной машины использовалась Ubuntu1. 
 
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/43edfadd-2ee8-41df-8375-fe617f8ba8dc)
-
-![image](https://github.com/Ivashka80/Netology/assets/121082757/fb9b1f49-1316-4631-819a-8708b7b86d04)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/30b1a77a-b8a8-46b9-b6f2-12d0ebec6144)
+ 
+![image](https://github.com/Ivashka80/Netology/assets/121082757/ef79dd00-37bd-4980-b5e4-98ce2eb1c7d9)
  
 </details>
 
@@ -53,7 +54,7 @@
 
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/4e447dca-68f1-4fae-92ae-b90e1c238ee3)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/84f04987-3aea-4e3e-8c65-38550c9e99b5)
  
 </details>
 
@@ -66,6 +67,9 @@
 Какая разница между параметрами forks и serial? 
 
 ### Ответ
+
+Forks - это максимальное количество подключений, на которых будет параллельно выполняться одна задача. Чем больше узлов, на которых Ansible выполняет задачи параллельно, тем больше ресурсов CPU и памяти нужно на сервере, где находится узел управления Ansible. 
+Serial - определяет количество узлов, обрабатываемых в каждой задаче за один запуск. 
 
 ---
 
@@ -83,5 +87,22 @@
  ### Ответ
 
 1.
-![image](https://github.com/Ivashka80/Netology/assets/121082757/354c9bf3-a7f8-4822-9e3d-88bf5175b67c)
+<details>
 
+ ![image](https://github.com/Ivashka80/Netology/assets/121082757/1fb0e78e-256d-4a69-8612-9cf7a88cdf10)
+
+</details>
+
+2.
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/6aaae8b6-224c-4699-832d-9bb8a2ca659a)
+ 
+</details>
+
+3.
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/9cac1fc8-90a0-4fd0-b4a6-b356c7c14b09)
+ 
+</details>
