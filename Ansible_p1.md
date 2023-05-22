@@ -98,6 +98,8 @@ Serial - определяет количество узлов, обрабаты�
 
 ![image](https://github.com/Ivashka80/Netology/assets/121082757/2b249b3b-47f3-46ea-ad07-8f881a9ad708)
  
+![image](https://github.com/Ivashka80/Netology/assets/121082757/0520d328-ac1b-4a49-aa7e-6e90cec3980c)
+ 
 </details>
 
 3.
