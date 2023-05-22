@@ -35,7 +35,7 @@
 1. 
 <details>
   
-![image](https://github.com/Ivashka80/Netology/assets/121082757/c5086bc4-324c-4896-ac24-bf19ba4035e7)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/b175016b-819a-476e-8476-ecd653e40dc5)
  
 </details>
 
@@ -54,7 +54,7 @@
 
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/84f04987-3aea-4e3e-8c65-38550c9e99b5)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/4ff5debe-3e40-4bb6-9d7b-bf936d05b5b9)
  
 </details>
 
@@ -89,20 +89,20 @@ Serial - определяет количество узлов, обрабаты�
 1.
 <details>
 
- ![image](https://github.com/Ivashka80/Netology/assets/121082757/1fb0e78e-256d-4a69-8612-9cf7a88cdf10)
-
+![image](https://github.com/Ivashka80/Netology/assets/121082757/58a22d8e-08cf-4c6b-be0f-6b25168e57d8)
+ 
 </details>
 
 2.
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/6aaae8b6-224c-4699-832d-9bb8a2ca659a)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/2b249b3b-47f3-46ea-ad07-8f881a9ad708)
  
 </details>
 
 3.
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/9cac1fc8-90a0-4fd0-b4a6-b356c7c14b09)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/f3262517-17b8-4bd2-b743-863387ec95df)
  
 </details>
