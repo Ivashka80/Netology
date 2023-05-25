@@ -83,17 +83,12 @@ Terraform используется для автоматизации разве�
 
 <details>
   
-![image](https://github.com/Ivashka80/Netology/assets/121082757/bc79cfa3-7bea-411e-b3b1-475e51e11fbb)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/ea9e04e1-2546-4810-899f-88d01d6c3d33)
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/e69fe38b-9094-48cc-a407-a9520d00a7bb)
 
 </details>
 
-Установка Интерфейс командной строки Yandex Cloud (CLI)
-
-<details>
-
-![image](https://github.com/Ivashka80/Netology/assets/121082757/402d4763-9ffd-477e-95f9-e641a21ec4ac)
-
-</details>
 
 ---
 
