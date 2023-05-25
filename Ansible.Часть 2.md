@@ -84,3 +84,45 @@
 - предоставьте скриншот браузера, отображающего сконфигурированный index.html в качестве сайта.
 
 ### Ответ
+
+Ссылка на все плейбуки и роли - https://disk.yandex.ru/d/8CNrGk6sAe0TQg
+
+Содержание файла плейбука.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/dfd4e454-9a4b-4b4f-b4ff-1fb2d60b426c)
+
+</details>
+
+Содержание файла Index.html.j2.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/a5749546-ca63-41b0-9393-a38adcfec3c0)
+
+</details>
+
+Установка Apache, замена файла Index.html, перезауск Apache.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/902e99d0-9a46-4629-a0b4-ae171eb206b4)
+
+</details>
+
+На управляющей машине запущен бразуер и осуществлен вход на один из управляемых хостов.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/13f9fcc8-e98d-4d70-ba70-72aae13e82cd)
+
+</details>
+
+Проверка сайта через curl с ответом 200.
+  
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/c7925039-5af9-4a62-b908-efd03759777a)
+
+</details>
