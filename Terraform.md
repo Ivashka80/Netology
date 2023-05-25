@@ -87,6 +87,8 @@ Terraform используется для автоматизации разве�
 
 ![image](https://github.com/Ivashka80/Netology/assets/121082757/e69fe38b-9094-48cc-a407-a9520d00a7bb)
 
+![image](https://github.com/Ivashka80/Netology/assets/121082757/96dd55b6-c68e-4652-9316-391e73903cdd)
+
 </details>
 
 
