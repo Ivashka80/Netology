@@ -79,6 +79,8 @@ Terraform используется для автоматизации разве�
 
 ### Ответ
 
+Установка Terraform
+
 <details>
   
 ![image](https://github.com/Ivashka80/Netology/assets/121082757/bc79cfa3-7bea-411e-b3b1-475e51e11fbb)
