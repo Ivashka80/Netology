@@ -79,7 +79,19 @@ Terraform используется для автоматизации разве�
 
 ### Ответ
 
+<details>
+  
 ![image](https://github.com/Ivashka80/Netology/assets/121082757/bc79cfa3-7bea-411e-b3b1-475e51e11fbb)
+
+</details>
+
+Установка Интерфейс командной строки Yandex Cloud (CLI)
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/402d4763-9ffd-477e-95f9-e641a21ec4ac)
+
+</details>
 
 ---
 
