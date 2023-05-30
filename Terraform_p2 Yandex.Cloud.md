@@ -141,6 +141,10 @@ provider "yandex" {
   zone      = "<ru-central1-a>"
 }
 
+data "yandex_compute_image" "ubuntu_image" {
+  family = "ubuntu-2204-lts"
+}
+
 resource "yandex_compute_instance" "vm-1" {
   name = "terraform1"
 
@@ -151,7 +155,7 @@ resource "yandex_compute_instance" "vm-1" {
 
   boot_disk {
     initialize_params {
-      image_id = "fd87kbts7j40q5b9rpjr"
+      image_id = data.yandex_compute_image.ubuntu_image.id
     }
   }
 
