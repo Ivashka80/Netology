@@ -271,6 +271,8 @@ users:
 
 ![image](https://github.com/Ivashka80/Netology/assets/121082757/ecf7d2c6-4e5f-4b13-93af-90ef074042c7)
 
+![image](https://github.com/Ivashka80/Netology/assets/121082757/f54e2f7d-4ee0-4374-9ac2-12b1599f1732)
+
 </details>
 
 ---
