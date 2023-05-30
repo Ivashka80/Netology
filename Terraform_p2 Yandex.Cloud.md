@@ -125,26 +125,26 @@ output "external_ip_address_vm_1" {
 <details>
 
 ```
-terraform {
-  required_providers    {
+
+ terraform {
+  required_providers {
     yandex = {
-      source = "yandex-cloud/yandex"
+      source  = "yandex-cloud/yandex"
     }
   }
-  required_version = ">= 0.13"
 }
-
+ 
 provider "yandex" {
-  token     = "y0_AgAAAКАBHHbtAATuwQAAAADj_AuH_rgUO8FLQsyxirSDVCK5-GNba6H8"
-  cloud_id  = "b1g524jd7rqbtofp1l6s"
-  folder_id = "b1bl92vgn8n271etn3fu"
-  zone      = "<ru-central1-a>"
+  token     = "y0_AgAAAAABHHbtAATuwQAAAADj_AuH_rgUO8FLQsyxirVUCK5-GNvg6H8"
+  cloud_id  = "b1g524jj0p1d4ofp1l6s"
+  folder_id = "b1gvjnnl70b79k428v6p"
+  zone      = "ru-central1-a"
 }
 
 data "yandex_compute_image" "ubuntu_image" {
   family = "ubuntu-2204-lts"
 }
-
+ 
 resource "yandex_compute_instance" "vm-1" {
   name = "terraform1"
 
@@ -165,9 +165,8 @@ resource "yandex_compute_instance" "vm-1" {
   }
   
   metadata = {
-    user-data = "${file("./meta.txt")}"
+    user-data = "${file("./meta.yml")}"
   }
-
 }
 resource "yandex_vpc_network" "network-1" {
   name = "network1"
@@ -175,7 +174,7 @@ resource "yandex_vpc_network" "network-1" {
 
 resource "yandex_vpc_subnet" "subnet-1" {
   name           = "subnet1"
-  zone           = "ru-central1-b"
+  zone           = "ru-central1-a"
   network_id     = yandex_vpc_network.network-1.id
   v4_cidr_blocks = ["192.168.10.0/24"]
 }
@@ -187,7 +186,7 @@ output "external_ip_address_vm_1" {
   value = yandex_compute_instance.vm-1.network_interface.0.nat_ip_address
 }
 
-  ```
+```
 
   </details>
 
@@ -197,14 +196,15 @@ output "external_ip_address_vm_1" {
     
   ```
     
-    users:
+    #cloud-config
+users:
   - name: chistov
     groups: sudo
     shell: /bin/bash
     sudo: ['ALL=(ALL) NOPASSWD:ALL']
     ssh-authorized-keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADA...M3afgNAhk= ivan@ubuntu1
-    
+      - ssh-rsa AAAAB3N...D86WXE= ivan@ubuntu1
+      
   ```
   
   </details>
@@ -233,10 +233,10 @@ output "external_ip_address_vm_1" {
  
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/5094f335-6639-47e4-bca2-657dd5df452d)
-
-![image](https://github.com/Ivashka80/Netology/assets/121082757/7c9c354c-114b-4696-8f26-0cc533141c90)
-
+![image](https://github.com/Ivashka80/Netology/assets/121082757/7edd9b86-ab22-4392-8503-12011a40df8b)
+ 
+![image](https://github.com/Ivashka80/Netology/assets/121082757/72477a59-c30f-4f6d-8898-6ba93cdb8926)
+ 
 </details>
 
   
