@@ -120,7 +120,7 @@ output "external_ip_address_vm_1" {
 
 ### Ответ
 
-Установка ВМ с Ubuntu 22.04. Содержимое файла конфигурации main.tf  (token, cloud_id и folder_id указан измененный в целях безопасности).
+Установка ВМ с Ubuntu 22.04. Содержимое файла конфигурации main.tf 
 
 <details>
 
@@ -135,9 +135,9 @@ output "external_ip_address_vm_1" {
 }
  
 provider "yandex" {
-  token     = "y0_AgAAAAABHHbtAATuwQAAAADj_AuH_rgUO8FLQsyxirVUCK5-GNvg6H8"
-  cloud_id  = "b1g524jj0p1d4ofp1l6s"
-  folder_id = "b1gvjnnl70b79k428v6p"
+  token     = "y0_AgAA....QsyxirVUCK5-GNvg6H8"
+  cloud_id  = "b1g524j....ofp1l6s"
+  folder_id = "b1gvj.....28v6p"
   zone      = "ru-central1-a"
 }
 
@@ -239,7 +239,40 @@ users:
  
 </details>
 
-  
+ 
+Содержимое файла `playbook-nginx.yml`
+
+```
+
+- name: Instal nginx
+  hosts: 158.160.100.105
+  become: true
+
+  tasks:
+  - name: Install nginx
+    apt:
+      name: nginx
+      state: latest
+
+  - name: Start nginx
+    systemd:
+      name: nginx
+      enabled: true
+      state: started
+    notify:
+      - nginx systemd
+```
+
+Установка nginx и проверка nginx
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/b53a75f2-5747-4d2c-8e45-a812a2668a19)
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/ecf7d2c6-4e5f-4b13-93af-90ef074042c7)
+
+</details>
+
 ---
 
 ## Дополнительные задания* (со звёздочкой)
