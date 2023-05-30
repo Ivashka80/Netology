@@ -228,7 +228,17 @@ output "external_ip_address_vm_1" {
 ![image](https://github.com/Ivashka80/Netology/assets/121082757/bdcf21c5-e7bb-4c09-9d19-c210c637fd6b)
 
 </details>
-  
+ 
+ Установка ВМ `sudo terraform01 applay`
+ 
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/5094f335-6639-47e4-bca2-657dd5df452d)
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/7c9c354c-114b-4696-8f26-0cc533141c90)
+
+</details>
+
   
 ---
 
