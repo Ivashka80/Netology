@@ -135,9 +135,9 @@ output "external_ip_address_vm_1" {
 }
  
 provider "yandex" {
-  token     = "y0_AgAA....QsyxirVUCK5-GNvg6H8"
-  cloud_id  = "b1g524j....ofp1l6s"
-  folder_id = "b1gvj.....28v6p"
+  token     = "y0_AgAA...QsyxirVUCK5-GNvg6H8"
+  cloud_id  = "b1g524j...ofp1l6s"
+  folder_id = "b1gvj...28v6p"
   zone      = "ru-central1-a"
 }
 
