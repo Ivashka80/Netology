@@ -22,20 +22,110 @@
 **Что нужно сделать:**
 
 1. Зарегистрируйте аккаунт на [GitHub](https://github.com/).
-1. Создайте публичный репозиторий. Обязательно поставьте галочку в поле «Initialize this repository with a README».
-2. Склонируйте репозиторий, используя https протокол `git clone ...`.
-3. Перейдите в каталог с клоном репозитория.
-1. Произведите первоначальную настройку Git, указав своё настоящее имя и email: `git config --global user.name` и `git config --global user.email johndoe@example.com`.
-1. Выполните команду `git status` и запомните результат.
-1. Отредактируйте файл README.md любым удобным способом, переведя файл в состояние Modified.
-1. Ещё раз выполните `git status` и продолжайте проверять вывод этой команды после каждого следующего шага.
-1. Посмотрите изменения в файле README.md, выполнив команды `git diff` и `git diff --staged`.
-1. Переведите файл в состояние staged или, как говорят, добавьте файл в коммит, командой `git add README.md`.
-1. Ещё раз выполните команды `git diff` и `git diff --staged`.
-1. Теперь можно сделать коммит `git commit -m 'First commit'`.
-1. Сделайте `git push origin master`.
+
+<details>
+
+![01](https://github.com/Ivashka80/Netology/assets/121082757/8b775232-df62-4189-8658-cd11bc208522)
+
+</details>
+
+2. Создайте публичный репозиторий. Обязательно поставьте галочку в поле «Initialize this repository with a README».
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/b416d9e4-65f4-4e39-bb50-fd1c059e2755)
+
+</details>
+
+3. Склонируйте репозиторий, используя https протокол `git clone ...`.
+
+
+<details>
+
+Клонирование сделано с помощью SSH-ключа
+ 
+![image](https://github.com/Ivashka80/Netology/assets/121082757/e666cb72-6d68-42b4-8ab0-97371bfbac7f)
+
+</details>
+
+4. Перейдите в каталог с клоном репозитория.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/1bd108bd-7482-4e63-86db-a3226df8ff06)
+
+</details>
+
+5. Произведите первоначальную настройку Git, указав своё настоящее имя и email: `git config --global user.name` и `git config --global user.email johndoe@example.com`.
+
+<details>
+
+![03](https://github.com/Ivashka80/Netology/assets/121082757/6e892900-0546-48b3-8446-f93b5e1fd252)
+
+</details>
+
+6. Выполните команду `git status` и запомните результат.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/c3672799-1fe3-4cc2-9e82-d8955e92be4b)
+
+</details>
+
+7. Отредактируйте файл README.md любым удобным способом, переведя файл в состояние Modified.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/f13c63a9-7bf4-49bf-a5a9-c48f6416bf76)
+
+</details>
+
+8. Ещё раз выполните `git status` и продолжайте проверять вывод этой команды после каждого следующего шага.
+9. Посмотрите изменения в файле README.md, выполнив команды `git diff` и `git diff --staged`.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/2171d5ec-9aba-4488-992d-e49e0c847c42)
+
+</details>
+
+10. Переведите файл в состояние staged или, как говорят, добавьте файл в коммит, командой `git add README.md`.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/87349256-f571-440c-a5bf-13604ed1d563)
+
+</details>
+
+11. Ещё раз выполните команды `git diff` и `git diff --staged`.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/87349256-f571-440c-a5bf-13604ed1d563)
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/e3a5b24d-1e01-4b90-b9cf-a35623c019f0)
+
+</details>
+
+12. Теперь можно сделать коммит `git commit -m 'First commit'`.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/7395de59-f1c9-4ef0-acce-3efc6ade2d0e)
+
+</details>
+
+13. Сделайте `git push origin master`.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/2f5693ee-942b-4970-ad54-9e1d280be19a)
+
+</details>
 
 В качестве ответа добавьте ссылку на этот коммит в ваш md-файл с решением.
+
+[Ссылка](https://github.com/Ivashka80/my-first-git)
 
 ---
 
