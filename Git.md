@@ -174,6 +174,8 @@
 
 ![image](https://github.com/Ivashka80/Netology/assets/121082757/8a92e540-8ee9-41dc-867a-ab73085cba39)
 
+![image](https://github.com/Ivashka80/Netology/assets/121082757/c87ac4b3-9fa0-4ddc-8689-3ab00116c62c)
+
 </details>
 
 В качестве ответа добавьте ссылку на этот коммит в ваш md-файл с решением.
