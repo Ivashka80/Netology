@@ -17,6 +17,9 @@
 
 ---
 
+### [Здесь](https://github.com/Ivashka80/git-hw-) находится `fork` [репозитория c шаблоном решения](https://github.com/netology-code/sys-pattern-homework) из инструкции выше.
+
+
 ### Задание 1
 
 **Что нужно сделать:**
@@ -242,7 +245,7 @@
 
 В качестве ответа прикрепите ссылку на граф коммитов https://github.com/ваш-логин/ваш-репозиторий/network в ваш md-файл с решением.
 
-### *[Ссылка](https://github.com/Ivashka80/my-first-github/network) на граф.
+### [Ссылка](https://github.com/Ivashka80/my-first-github/network) на граф.
 
 
 ---
