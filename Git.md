@@ -189,12 +189,63 @@
 **Что нужно сделать:**
 
 1. Создайте новую ветку dev и переключитесь на неё.
-1. Создайте файл test.sh с произвольным содержимым.
-1. Сделайте несколько коммитов и пушей, имитируя активную работу над этим файлом.
-1. Сделайте мердж этой ветки в основную. Сначала нужно переключиться на неё, а потом вызывать `git merge`.
-1. Сделайте коммит и пуш.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/36115cdd-09a7-4793-a375-c94b79a4e016)
+
+</details>
+
+2. Создайте файл test.sh с произвольным содержимым.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/59357a94-a61d-4c50-8114-bf7861aef850)
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/4ff300ef-81e4-4e4f-8f96-60929639d13b)
+
+</details>
+
+3. Сделайте несколько коммитов и пушей, имитируя активную работу над этим файлом.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/44cbf1ff-34b0-4344-a1a8-402faf0aed94)
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/89a255ab-27a0-45d0-8048-6555a5ef9b65)
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/92a7d9a1-8307-40c3-8dc0-402622e18466)
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/6a72645d-9fdb-4291-8ebb-3259fe66c0ff)
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/fb481c84-6d01-4e17-a232-9b29f756cf26)
+
+</details>
+
+   4. Сделайте мердж этой ветки в основную. Сначала нужно переключиться на неё, а потом вызывать `git merge`.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/bd5c6c98-25e3-4f29-9e95-a3615e31e56f)
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/25c9bec7-919a-4d29-888d-87a6aae6a2f1)
+
+</details>
+
+5. Сделайте коммит и пуш.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/bd5c6c98-25e3-4f29-9e95-a3615e31e56f)
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/25c9bec7-919a-4d29-888d-87a6aae6a2f1)
+
+</details>
 
 В качестве ответа прикрепите ссылку на граф коммитов https://github.com/ваш-логин/ваш-репозиторий/network в ваш md-файл с решением.
+
+[Ссылка]() на граф.
+
 
 ---
 ## Дополнительные задания* (со звёздочкой)
