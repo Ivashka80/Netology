@@ -133,7 +133,7 @@
 
 В качестве ответа добавьте ссылку на этот коммит в ваш md-файл с решением.
 
-[Ссылка](https://github.com/Ivashka80/my-first-github/commit/0e13cfa66b1ddf78b349f798ad8795a8e46435a4)
+[Ссылка](https://github.com/Ivashka80/my-first-github/commit/5ce0e2f7275f9a42263a9c92cde3f904df31ae27)
 
 ---
 
