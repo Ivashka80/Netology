@@ -227,7 +227,7 @@
 
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/bd5c6c98-25e3-4f29-9e95-a3615e31e56f)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/13a41cd6-1b5d-4bfc-9dd6-42e688c2ca95)
 
 ![image](https://github.com/Ivashka80/Netology/assets/121082757/06f8c461-5a4f-4287-a317-fbf7efa9755b)
 
