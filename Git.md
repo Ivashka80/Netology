@@ -33,18 +33,17 @@
 
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/b416d9e4-65f4-4e39-bb50-fd1c059e2755)
-
+![image](https://github.com/Ivashka80/Netology/assets/121082757/376c245b-7253-4b3c-9083-ce58eba365dc)
+ 
 </details>
 
 3. Склонируйте репозиторий, используя https протокол `git clone ...`.
-
 
 <details>
 
 Клонирование сделано с помощью SSH-ключа
  
-![image](https://github.com/Ivashka80/Netology/assets/121082757/e666cb72-6d68-42b4-8ab0-97371bfbac7f)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/b618b981-624f-4eaf-8a25-7bf3d4171fc8)
 
 </details>
 
@@ -52,7 +51,7 @@
 
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/1bd108bd-7482-4e63-86db-a3226df8ff06)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/77fe2889-d440-428c-8d7d-3b6fa703867e)
 
 </details>
 
@@ -60,7 +59,7 @@
 
 <details>
 
-![03](https://github.com/Ivashka80/Netology/assets/121082757/6e892900-0546-48b3-8446-f93b5e1fd252)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/ab309d1d-7d31-4405-b61a-5c9906b62d87)
 
 </details>
 
@@ -68,7 +67,7 @@
 
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/c3672799-1fe3-4cc2-9e82-d8955e92be4b)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/1b73580a-634a-4a5a-8808-05cf453a4295)
 
 </details>
 
@@ -76,16 +75,23 @@
 
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/f13c63a9-7bf4-49bf-a5a9-c48f6416bf76)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/f29c546f-12e0-4c32-ab3a-47854652a5ee)
 
 </details>
 
 8. Ещё раз выполните `git status` и продолжайте проверять вывод этой команды после каждого следующего шага.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/f31d9fed-5050-45cc-8c6a-f7fcdb0ee551)
+
+</details>
+
 9. Посмотрите изменения в файле README.md, выполнив команды `git diff` и `git diff --staged`.
 
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/2171d5ec-9aba-4488-992d-e49e0c847c42)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/8de874e5-8edf-4a01-8dba-c9cec25a7f02)
 
 </details>
 
@@ -93,7 +99,7 @@
 
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/87349256-f571-440c-a5bf-13604ed1d563)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/6d6f3ca5-2548-451e-9bea-8a17e4f966fe)
 
 </details>
 
@@ -101,9 +107,7 @@
 
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/87349256-f571-440c-a5bf-13604ed1d563)
-
-![image](https://github.com/Ivashka80/Netology/assets/121082757/e3a5b24d-1e01-4b90-b9cf-a35623c019f0)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/b7bcdddf-f3b6-49ed-8557-92e103b3ea62)
 
 </details>
 
@@ -111,7 +115,7 @@
 
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/7395de59-f1c9-4ef0-acce-3efc6ade2d0e)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/7f51ae64-b481-4bdc-8b2f-78d872b5c7c3)
 
 </details>
 
@@ -119,13 +123,15 @@
 
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/2f5693ee-942b-4970-ad54-9e1d280be19a)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/7ffc81ad-63e4-4af1-ac61-18a6356bbfe7)
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/0b215459-e81b-4d05-a0ef-bea0f337b4f4)
 
 </details>
 
 В качестве ответа добавьте ссылку на этот коммит в ваш md-файл с решением.
 
-[Ссылка](https://github.com/Ivashka80/my-first-git)
+[Ссылка](https://github.com/Ivashka80/my-first-github)
 
 ---
 
