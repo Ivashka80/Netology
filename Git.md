@@ -181,7 +181,7 @@
 
 В качестве ответа добавьте ссылку на этот коммит в ваш md-файл с решением.
 
-[Ссылка](https://github.com/Ivashka80/my-first-github/commit/6ccf807a31c068e97663a092cd5d2ae1a9223d9d)
+[Ссылка](https://github.com/Ivashka80/my-first-github/commit/7703cbdf2134f749aafc788123ce743a552e1282)
 
 ---
 
