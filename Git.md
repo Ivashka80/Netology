@@ -224,9 +224,7 @@
 
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/bd5c6c98-25e3-4f29-9e95-a3615e31e56f)
-
-![image](https://github.com/Ivashka80/Netology/assets/121082757/25c9bec7-919a-4d29-888d-87a6aae6a2f1)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/1bde333c-b494-4348-a85e-95f4c1f91bb6)
 
 </details>
 
@@ -236,13 +234,15 @@
 
 ![image](https://github.com/Ivashka80/Netology/assets/121082757/bd5c6c98-25e3-4f29-9e95-a3615e31e56f)
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/25c9bec7-919a-4d29-888d-87a6aae6a2f1)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/06f8c461-5a4f-4287-a317-fbf7efa9755b)
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/dac733c1-1d78-483c-b5db-576b0b32ca0d)
 
 </details>
 
 В качестве ответа прикрепите ссылку на граф коммитов https://github.com/ваш-логин/ваш-репозиторий/network в ваш md-файл с решением.
 
-[Ссылка]() на граф.
+[Ссылка](https://github.com/Ivashka80/my-first-github/network) на граф.
 
 
 ---
