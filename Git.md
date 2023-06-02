@@ -127,11 +127,13 @@
 
 ![image](https://github.com/Ivashka80/Netology/assets/121082757/0b215459-e81b-4d05-a0ef-bea0f337b4f4)
 
+![image](https://github.com/Ivashka80/Netology/assets/121082757/e1bce582-66ae-434a-92d0-87bee1b365f3)
+
 </details>
 
 В качестве ответа добавьте ссылку на этот коммит в ваш md-файл с решением.
 
-[Ссылка](https://github.com/Ivashka80/my-first-github)
+[Ссылка](https://github.com/Ivashka80/my-first-github/commit/0e13cfa66b1ddf78b349f798ad8795a8e46435a4)
 
 ---
 
@@ -140,11 +142,43 @@
 **Что нужно сделать:**
 
 1. Создайте файл .gitignore (обратите внимание на точку в начале файла) и проверьте его статус сразу после создания.
-1. Добавьте файл .gitignore в следующий коммит `git add...`.
-1. Напишите правила в этом файле, чтобы игнорировать любые файлы `.pyc`, а также все файлы в директории `cache`.
-1. Сделайте коммит и пуш.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/83bd9228-2edb-4625-9718-e14f5ed5ffbc)
+
+</details>
+
+2. Добавьте файл .gitignore в следующий коммит `git add...`.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/406041e7-086c-4c81-9feb-9e7f191b4e77)
+
+</details>
+
+3. Напишите правила в этом файле, чтобы игнорировать любые файлы `.pyc`, а также все файлы в директории `cache`.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/517da4e6-9a7b-4624-a93d-4ada559e150f)
+
+</details>
+
+
+4. Сделайте коммит и пуш.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/d75f7479-cf1c-44dd-9c88-3954a5fcf42b)
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/8a92e540-8ee9-41dc-867a-ab73085cba39)
+
+</details>
 
 В качестве ответа добавьте ссылку на этот коммит в ваш md-файл с решением.
+
+[Ссылка](https://github.com/Ivashka80/my-first-github/commit/9d6dd76aae47faa80d64efa3f1680b9f591faf91)
 
 ---
 
