@@ -17,7 +17,7 @@
 
 ---
 
-### [Здесь](https://github.com/Ivashka80/git-hw-) находится `fork` [репозитория c шаблоном решения](https://github.com/netology-code/sys-pattern-homework) из инструкции выше.
+### [Здесь](https://github.com/Ivashka80/git-hw-) находится `fork` [репозитория c шаблоном решения](https://github.com/netology-code/sys-pattern-homework) из инструкции выше. Далее идут шаги выполнения домашнего задания.
 
 
 ### Задание 1
