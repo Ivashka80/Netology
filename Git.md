@@ -170,17 +170,15 @@
 
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/d75f7479-cf1c-44dd-9c88-3954a5fcf42b)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/f9f575fb-5ed8-43a7-9ecd-ac11819f5626)
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/8a92e540-8ee9-41dc-867a-ab73085cba39)
-
-![image](https://github.com/Ivashka80/Netology/assets/121082757/c87ac4b3-9fa0-4ddc-8689-3ab00116c62c)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/5cb012d4-1f49-41aa-9af2-7ca8586d3c43)
 
 </details>
 
 В качестве ответа добавьте ссылку на этот коммит в ваш md-файл с решением.
 
-[Ссылка](https://github.com/Ivashka80/my-first-github/commit/9d6dd76aae47faa80d64efa3f1680b9f591faf91)
+[Ссылка](https://github.com/Ivashka80/my-first-github/commit/6ccf807a31c068e97663a092cd5d2ae1a9223d9d)
 
 ---
 
