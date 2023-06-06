@@ -29,7 +29,7 @@
 
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/8835b806-133a-4b9e-b313-ccf3efd4ceee)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/4a00efac-355c-424d-8899-50b9be1c3b3e)
 
 </details>
 
