@@ -29,18 +29,11 @@
 
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/598d2e83-730e-45e2-aa99-0eefa9dd0304)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/8835b806-133a-4b9e-b313-ccf3efd4ceee)
 
 </details>
 
 2. Установите на машину с jenkins [golang](https://golang.org/doc/install).
-
-<details>
-
-![image](https://github.com/Ivashka80/Netology/assets/121082757/a2ec84d6-3290-411a-a3a7-ba9232135e4f)
-
-</details>
-
 3. Используя свой аккаунт на GitHub, сделайте себе форк [репозитория](https://github.com/netology-code/sdvps-materials.git). В этом же репозитории находится [дополнительный материал для выполнения ДЗ](https://github.com/netology-code/sdvps-materials/blob/main/CICD/8.2-hw.md).
 
 <details>
