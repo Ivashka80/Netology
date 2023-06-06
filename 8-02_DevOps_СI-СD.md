@@ -26,9 +26,30 @@
 **Что нужно сделать:**
 
 1. Установите себе jenkins по инструкции из лекции или любым другим способом из официальной документации. Использовать Docker в этом задании нежелательно.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/598d2e83-730e-45e2-aa99-0eefa9dd0304)
+
+</details>
+
 2. Установите на машину с jenkins [golang](https://golang.org/doc/install).
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/a2ec84d6-3290-411a-a3a7-ba9232135e4f)
+
+</details>
+
 3. Используя свой аккаунт на GitHub, сделайте себе форк [репозитория](https://github.com/netology-code/sdvps-materials.git). В этом же репозитории находится [дополнительный материал для выполнения ДЗ](https://github.com/netology-code/sdvps-materials/blob/main/CICD/8.2-hw.md).
-3. Создайте в jenkins Freestyle Project, подключите получившийся репозиторий к нему и произведите запуск тестов и сборку проекта ```go test .``` и  ```docker build .```.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/fde13719-f1f5-48f2-a62b-ab98f08b6178)
+
+</details>
+
+4. Создайте в jenkins Freestyle Project, подключите получившийся репозиторий к нему и произведите запуск тестов и сборку проекта ```go test .``` и  ```docker build .```.
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 
