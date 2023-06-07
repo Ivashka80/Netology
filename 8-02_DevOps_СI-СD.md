@@ -88,6 +88,8 @@
 
 <details>
 
+![image](https://github.com/Ivashka80/Netology/assets/121082757/d16548a5-9141-4134-a294-e6c9a79d5c67)
+   
 ![image](https://github.com/Ivashka80/Netology/assets/121082757/a6904396-d177-41a1-859d-29596a3a453c)
 
 ![image](https://github.com/Ivashka80/Netology/assets/121082757/5727bb58-c641-4d84-88b3-d7f0d49f3018)
