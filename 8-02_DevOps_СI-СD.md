@@ -46,8 +46,6 @@
 
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/fde13719-f1f5-48f2-a62b-ab98f08b6178)
-
 ![image](https://github.com/Ivashka80/Netology/assets/121082757/8cdd9211-0375-460e-90e0-fb8c620a465d)
 
 ![image](https://github.com/Ivashka80/Netology/assets/121082757/f1df962f-7e35-4248-90ee-4744ab07c755)
@@ -84,9 +82,21 @@
 **Что нужно сделать:**
 
 1. Установите на машину Nexus.
-1. Создайте raw-hosted репозиторий.
-1. Измените pipeline так, чтобы вместо Docker-образа собирался бинарный go-файл. Команду можно скопировать из Dockerfile.
-1. Загрузите файл в репозиторий с помощью jenkins.
+2. Создайте raw-hosted репозиторий.
+3. Измените pipeline так, чтобы вместо Docker-образа собирался бинарный go-файл. Команду можно скопировать из Dockerfile.
+4. Загрузите файл в репозиторий с помощью jenkins.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/a6904396-d177-41a1-859d-29596a3a453c)
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/5727bb58-c641-4d84-88b3-d7f0d49f3018)
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/2c6d2586-b311-4b9b-b650-ddf41e538999)
+
+</details>
+
+
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 
