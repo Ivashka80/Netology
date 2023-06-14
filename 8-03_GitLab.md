@@ -34,11 +34,9 @@
 
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/000a87ef-b394-4ff6-b0f1-4770aa6e09c2)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/55722602-a4b9-4b05-8936-499c6881751a)
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/a0878d0e-4910-4b75-bb66-2c4b98f0adfd)
-
-![image](https://github.com/Ivashka80/Netology/assets/121082757/27673d58-c148-419a-bfac-5d6b96909b29)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/771615f2-e071-496b-a31f-f3bfc5dbe8f7)
 
 </details>
 
