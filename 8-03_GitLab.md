@@ -23,7 +23,24 @@
 
 1. Разверните GitLab локально, используя Vagrantfile и инструкцию, описанные в [этом репозитории](https://github.com/netology-code/sdvps-materials/tree/main/gitlab).   
 2. Создайте новый проект и пустой репозиторий в нём.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/4c5b8047-2322-45d3-9af9-4e081c528977)
+
+</details>
+
 3. Зарегистрируйте gitlab-runner для этого проекта и запустите его в режиме Docker. Раннер можно регистрировать и запускать на той же виртуальной машине, на которой запущен GitLab.
+
+<details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/000a87ef-b394-4ff6-b0f1-4770aa6e09c2)
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/a0878d0e-4910-4b75-bb66-2c4b98f0adfd)
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/27673d58-c148-419a-bfac-5d6b96909b29)
+
+</details>
 
 В качестве ответа в репозиторий шаблона с решением добавьте скриншоты с настройками раннера в проекте.
 
