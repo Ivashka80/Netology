@@ -38,6 +38,8 @@
 
 ![image](https://github.com/Ivashka80/Netology/assets/121082757/771615f2-e071-496b-a31f-f3bfc5dbe8f7)
 
+![image](https://github.com/Ivashka80/Netology/assets/121082757/4496f48b-7d61-424e-8406-1a6017d8e04c)
+
 </details>
 
 В качестве ответа в репозиторий шаблона с решением добавьте скриншоты с настройками раннера в проекте.
