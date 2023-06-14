@@ -68,6 +68,15 @@
 
 2. Создайте .gitlab-ci.yml, описав в нём все необходимые, на ваш взгляд, этапы.
 
+![image](https://github.com/Ivashka80/Netology/assets/121082757/3b256844-ebea-4f2e-9d12-a1c0180618cb)
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/09ab44f1-8ec2-4384-a601-a5016cbb984b)
+
+
+
+
+
+
 В качестве ответа в шаблон с решением добавьте: 
    
  * файл gitlab-ci.yml для своего проекта или вставьте код в соответствующее поле в шаблоне; 
