@@ -81,6 +81,13 @@
  * файл gitlab-ci.yml для своего проекта или вставьте код в соответствующее поле в шаблоне; 
  * скриншоты с успешно собранными сборками.
  
+ <details>
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/f9eb683e-b448-4f94-bd06-45596e203fc5)
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/74594443-3b21-4ca3-a04d-dbd7a3301bde)
+
+</details>
  
 ---
 ## Дополнительные задания* (со звёздочкой)
