@@ -54,25 +54,15 @@
 
 1. Запушьте [репозиторий](https://github.com/netology-code/sdvps-materials/tree/main/gitlab) на GitLab, изменив origin. Это изучалось на занятии по Git.
 
-<details>
-
-![image](https://github.com/Ivashka80/Netology/assets/121082757/deefd1d5-1fae-40ce-84ff-23344be16e95)
-
-![image](https://github.com/Ivashka80/Netology/assets/121082757/5adcd544-8b47-47d4-bf4d-68756fed20e8)
-
-![image](https://github.com/Ivashka80/Netology/assets/121082757/3a4c4054-ebab-436f-8582-ad27e79acd0b)
-
-![image](https://github.com/Ivashka80/Netology/assets/121082757/29670c2f-772c-47f7-927e-25f85ce8afe1)
-
-</details>
-
 2. Создайте .gitlab-ci.yml, описав в нём все необходимые, на ваш взгляд, этапы.
 
 <details>
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/3b256844-ebea-4f2e-9d12-a1c0180618cb)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/deefd1d5-1fae-40ce-84ff-23344be16e95)
 
-![image](https://github.com/Ivashka80/Netology/assets/121082757/09ab44f1-8ec2-4384-a601-a5016cbb984b)
+![image](https://github.com/Ivashka80/Netology/assets/121082757/bc0f0faa-606d-4daa-b828-0c1c776b4e2d)
+
+![image](https://github.com/Ivashka80/Netology/assets/121082757/5ca9f995-ebfd-4531-b0e5-aaf428fe9343)
 
 </details>
 
